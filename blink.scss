@@ -1,0 +1,17 @@
+@keyframes blink {
+    from {
+        color: var(--background-secondary);
+    }
+    to {
+        color: var(--text-muted);
+    }
+}
+
+.placeholder-37qJjk.fontSize16Padding-3Wk7zP {
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
