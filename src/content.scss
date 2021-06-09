@@ -1,0 +1,22 @@
+@import '../colours.scss';
+.scrollableContainer-2NUZem.webkit-HjD9Er:hover {
+    border-radius: $radius;
+    border: 1px solid white;
+    border-color: radial-gradient(circle, white, yellow);
+}
+
+.scrollableContainer-2NUZem.webkit-HjD9Er {
+    border-radius: $radius;
+    border: 1px solid white;
+    border-color: radial-gradient(circle, white, yellow);
+}
+
+////  Context Menu
+.menu-3sdvDG.styleFlexible-wGDiIL {
+    border: 1px solid var(--background-alt);
+}
+
+//  Active Selection
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: var(--background-alt);
+}
