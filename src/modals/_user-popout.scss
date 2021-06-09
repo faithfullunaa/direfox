@@ -1,4 +1,3 @@
-@import '../vars.scss';
 .infoScroller-1Qu30O .userInfoSection-q_35fn:first-child,
 .bodyInnerWrapper-1NH0NQ .bodyTitle-3FWCs2:nth-child(3),
 .bodyInnerWrapper-1NH0NQ .note-1MiCN7 {
@@ -17,5 +16,5 @@
 .userPopout-xaxa6l,
 .bar-3urHkF,
 .barInner-3NDaY_ {
-    border-radius: $radius;
+    border-radius: --radius;
 }

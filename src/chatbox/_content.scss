@@ -1,12 +1,14 @@
-@import '../colours.scss';
-.scrollableContainer-2NUZem.webkit-HjD9Er:hover {
-    border-radius: $radius;
-    border: 1px solid white;
-    border-color: radial-gradient(circle, white, yellow);
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Ubuntu Mono", monospace;
 }
 
-.scrollableContainer-2NUZem.webkit-HjD9Er {
-    border-radius: $radius;
+.scrollableContainer-2NUZem.webkit-HjD9Er:hover {
+    border-radius: --radius;
     border: 1px solid white;
     border-color: radial-gradient(circle, white, yellow);
 }

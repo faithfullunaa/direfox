@@ -6,7 +6,7 @@
     --background-alt: rgb(28, 27, 34);
     --background-floating: rgb(35, 34, 43);
     --background-mentioned-hover: rgb(82, 82, 94);
-    --background-mentioned: rgba(82, 82, 94, 0.8);
+    --background-mentioned: rgb(82, 82, 94);
     --background-message-hover: transparent;
     --background-modifier-accent: transparent;
     --background-modifier-active: rgb(91, 91, 102);
@@ -17,7 +17,7 @@
     --background-secondary-alt: rgb(35, 34, 43);
     --background-secondary: rgb(35, 34, 43);
     --background-tertiary: rgb(28, 27, 34);
-    --border-colour: rgba(249, 249, 250, 0.2);
+    --border-colour: rgb(249, 249, 250);
     --button-accent-active: rgb(91, 91, 102);
     --button-accent-hover: rgb(214, 241, 253);
     --button-accent: rgb(191, 191, 201);
@@ -46,12 +46,54 @@
     --text-positive: rgb(191, 191, 201);
 }
 
-.autocomplete-1vrmpx.autocomplete-3l_oCd {
+//put these to respective folders insice src
+////    Colour Fixes
+//  Emoji Autocomplete
+.theme-dark .autocomplete-1vrmpx.autocomplete-3l_oCd {
+    background-color: var(--background-primary);
+    //border: 1px solid var(--background-alt);
+}
+
+//  Emoji Autocomplete Hover
+.theme-dark .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
+    background-color: var(--background-modifier-hover);
+}
+
+//  Friends List
+.theme-dark .container-1D34oG {
     background-color: var(--background-primary);
 }
 
-.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
-    background-color: var(--background-modifier-hover);
+//  Bar Fill    Left
+.theme-dark .barFill-23-gu- {
+    background-color: var(--accent-colour);
+}
+
+//  Bar Fill  Right
+.theme-dark .bar-2Qqk5Z {
+    background-color: var(--background-alt);
+}
+
+//  Check Box   Enabled
+.theme-dark .container-3auIfb {
+    background-color: var(--accent-colour) !important;
+}
+
+.theme-dark .container-3auIfb:first-child():nth-child(2) rect {
+    fill: var(--background-primary) !important;
+}
+
+.theme-dark .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9 {
+    border-color: var(--button-accent-active) !important;
+    background-color: var(--button-background-active) !important;
+}
+
+.theme-dark .checkbox-1ix_J3 {
+    border-color: var(--button-accent);
+}
+
+.theme-dark .checkbox-1ix_J3:hover {
+    border-color: var(--accent-colour) !important;
 }
 
 //  LIGHT THEME IS SCUFFED RIGHT NOW

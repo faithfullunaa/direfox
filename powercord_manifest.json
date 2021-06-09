@@ -1,8 +1,8 @@
 {
     "name": "Direfox",
     "description": "A theme to replicate the current official Firefox light & dark themes inside of Discord.",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "author": "codexec#7172",
-    "theme": "main.scss",
+    "theme": "_index.scss",
     "license": "MIT"
 }
