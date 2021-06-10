@@ -1,0 +1,12 @@
+.theme-dark .closeButton-1tv5uR {
+    border-color: var(--button-accent);
+    border-radius: var(--radius);
+    &:hover {
+        border-color: var(--button-accent-hover);
+        background-color: var(--button-background-hover);
+    }
+    &:active {
+        border-color: var(--button-accent-active);
+        background-color: var(--button-background-active);
+    }
+}

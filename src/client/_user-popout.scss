@@ -1,20 +1,18 @@
+//  User Popout Notes
 .infoScroller-1Qu30O .userInfoSection-q_35fn:first-child,
 .bodyInnerWrapper-1NH0NQ .bodyTitle-3FWCs2:nth-child(3),
 .bodyInnerWrapper-1NH0NQ .note-1MiCN7 {
     display: none;
 }
 
-.profileBanner-33-uE1 .banner-2QYc2d {
-    color: white;
-}
-
-.headerTop-2cWpdB {
-    border-bottom: 1px solid var(--background-alt);
+//  User Popout Banner Colour
+.userPopout-xaxa6l .profileBanner-33-uE1 {
+    background-color: var(--background-primary) !important;
 }
 
 .rolesList-TyGJiZ,
 .userPopout-xaxa6l,
 .bar-3urHkF,
 .barInner-3NDaY_ {
-    border-radius: --radius;
+    border-radius: var(--radius);
 }

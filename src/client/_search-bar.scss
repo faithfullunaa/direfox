@@ -1,0 +1,58 @@
+.theme-dark .container-3ayLPN {
+    border-radius: var(--radius);
+    background-color: var(--background-primary);
+}
+
+.theme-dark .option-96V44q.searchOption-zQ-1l6 {
+    border-radius: var(--radius);
+    background-color: var(--background-primary);
+    &.selected-rZcOL- {
+        background-color: var(--background-tertiary);
+    }
+    &::after {
+        background: none;
+    }
+}
+
+.theme-dark .option-96V44q.user-O3Czj0 {
+    border-radius: var(--radius);
+    &.selected-rZcOL- {
+        background-color: var(--background-tertiary);
+    }
+    &::after {
+        background: none;
+    }
+}
+
+.theme-dark .option-96V44q {
+    border-radius: var(--radius);
+    &.selected-rZcOL-::after {
+        background: none;
+    }
+    &.selected-rZcOL- {
+        background-color: var(--background-tertiary);
+    }
+    &::after {
+        background: none;
+    }
+}
+
+.theme-dark .queryContainer-RKFJW-.focused-2bY0OD {
+    background-color: var(--background-tertiary);
+    border-radius: var(--radius);
+}
+
+.theme-dark .keybindShortcut-1BD6Z1.dim-1l4L4y.keybindShortcutSearchPopout-1MAfqq>span {
+    background-color: var(--background-tertiary);
+    color: var(--accent-colour);
+    border-radius: var(--radius);
+}
+
+.theme-dark .searchFilter-2ESiM3 {
+    background-color: var(--accent-colour);
+    border-radius: var(--radius);
+}
+
+.theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j {
+    border-radius: var(--radius);
+}

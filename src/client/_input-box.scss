@@ -1,25 +1,10 @@
 @keyframes blink {
-    from {
+    0% {
         color: var(--background-secondary);
     }
-    to {
+    100% {
         color: var(--text-muted);
     }
-}
-
-@keyframes radialgrad {
-    from {
-        border-color: transparent;
-    }
-    to {
-        border-color: var(--accent-colour);
-    }
-}
-
-.scrollableContainer-2NUZem.webkit-HjD9Er {
-    border-radius: --radius;
-    border: 1px solid transparent;
-    border-color: radial-gradient(circle, white, yellow);
 }
 
 .placeholder-37qJjk.fontSize16Padding-3Wk7zP {

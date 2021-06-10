@@ -17,7 +17,7 @@
     --background-secondary-alt: rgb(35, 34, 43);
     --background-secondary: rgb(35, 34, 43);
     --background-tertiary: rgb(28, 27, 34);
-    --border-colour: rgb(249, 249, 250);
+    --border-colour: rgb(91, 91, 102);
     --button-accent-active: rgb(91, 91, 102);
     --button-accent-hover: rgb(214, 241, 253);
     --button-accent: rgb(191, 191, 201);
@@ -46,55 +46,54 @@
     --text-positive: rgb(191, 191, 201);
 }
 
-//put these to respective folders insice src
-////    Colour Fixes
-//  Emoji Autocomplete
-.theme-dark .autocomplete-1vrmpx.autocomplete-3l_oCd {
-    background-color: var(--background-primary);
-    //border: 1px solid var(--background-alt);
-}
 
-//  Emoji Autocomplete Hover
-.theme-dark .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
-    background-color: var(--background-modifier-hover);
-}
-
-//  Friends List
-.theme-dark .container-1D34oG {
-    background-color: var(--background-primary);
-}
-
-//  Bar Fill    Left
-.theme-dark .barFill-23-gu- {
-    background-color: var(--accent-colour);
-}
-
-//  Bar Fill  Right
-.theme-dark .bar-2Qqk5Z {
-    background-color: var(--background-alt);
-}
-
-//  Check Box   Enabled
-.theme-dark .container-3auIfb {
-    background-color: var(--accent-colour) !important;
-}
-
-.theme-dark .container-3auIfb:first-child():nth-child(2) rect {
-    fill: var(--background-primary) !important;
-}
-
-.theme-dark .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9 {
-    border-color: var(--button-accent-active) !important;
-    background-color: var(--button-background-active) !important;
-}
-
-.theme-dark .checkbox-1ix_J3 {
-    border-color: var(--button-accent);
-}
-
-.theme-dark .checkbox-1ix_J3:hover {
-    border-color: var(--accent-colour) !important;
-}
+/*
+    --brand-experiment-100: hsl(228, calc(var(--background-tertiary, 1)*55.6%), 98.2%) !important;
+    --brand-experiment-130: hsl(228, calc(var(--background-tertiary, 1)*62.5%), 96.9%) !important;
+    --brand-experiment-160: hsl(228, calc(var(--background-tertiary, 1)*60%), 95.1%) !important;
+    --brand-experiment-200: hsl(229, calc(var(--background-tertiary, 1)*60%), 93.1%) !important;
+    --brand-experiment-230: hsl(227, calc(var(--background-tertiary, 1)*57.4%), 90.8%) !important;
+    --brand-experiment-260: hsl(226, calc(var(--background-tertiary, 1)*58.6%), 88.6%) !important;
+    --brand-experiment-300: hsl(227, calc(var(--background-tertiary, 1)*57.7%), 86.1%) !important;
+    --brand-experiment-330: hsl(227, calc(var(--background-tertiary, 1)*59.1%), 81.8%) !important;
+    --brand-experiment-360: hsl(227, calc(var(--background-tertiary, 1)*57.9%), 77.6%) !important;
+    --brand-experiment-400: hsl(226, calc(var(--background-tertiary, 1)*58%), 72%) !important;
+    --brand-experiment-430: hsl(227, calc(var(--background-tertiary, 1)*58.2%), 70%) !important;
+    --brand-experiment-460: hsl(227, calc(var(--background-tertiary, 1)*58.5%), 67.8%) !important;
+    --brand-experiment: hsl(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%) !important;
+    --brand-experiment-500: hsl(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%) !important;
+    --brand-experiment-530: hsl(227, calc(var(--background-tertiary, 1)*45.2%), 59.2%) !important;
+    --brand-experiment-560: hsl(227, calc(var(--background-tertiary, 1)*35.3%), 52.7%) !important;
+    --brand-experiment-600: hsl(227, calc(var(--background-tertiary, 1)*31%), 44.3%) !important;
+    --brand-experiment-630: hsl(226, calc(var(--background-tertiary, 1)*31.3%), 38.2%) !important;
+    --brand-experiment-660: hsl(226, calc(var(--background-tertiary, 1)*31%), 33.5%) !important;
+    --brand-experiment-700: hsl(227, calc(var(--background-tertiary, 1)*30.8%), 26.1%) !important;
+    --brand-experiment-730: hsl(228, calc(var(--background-tertiary, 1)*31.2%), 24.5%) !important;
+    --brand-experiment-760: hsl(227, calc(var(--background-tertiary, 1)*31.6%), 22.4%) !important;
+    --brand-experiment-800: hsl(226, calc(var(--background-tertiary, 1)*31.3%), 19.4%) !important;
+    --brand-experiment-830: hsl(225, calc(var(--background-tertiary, 1)*31.6%), 14.9%) !important;
+    --brand-experiment-860: hsl(225, calc(var(--background-tertiary, 1)*32%), 9.8%) !important;
+    --brand-experiment-900: hsl(228, calc(var(--background-tertiary, 1)*29.4%), 3.3%) !important;
+    --brand-experiment-05a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.05) !important;
+    --brand-experiment-10a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.1) !important;
+    --brand-experiment-15a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.15) !important;
+    --brand-experiment-20a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.2) !important;
+    --brand-experiment-25a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.25) !important;
+    --brand-experiment-30a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.3) !important;
+    --brand-experiment-35a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.35) !important;
+    --brand-experiment-40a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.4) !important;
+    --brand-experiment-45a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.45) !important;
+    --brand-experiment-50a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.5) !important;
+    --brand-experiment-55a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.55) !important;
+    --brand-experiment-60a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.6) !important;
+    --brand-experiment-65a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.65) !important;
+    --brand-experiment-70a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.7) !important;
+    --brand-experiment-75a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.75) !important;
+    --brand-experiment-80a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.8) !important;
+    --brand-experiment-85a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.85) !important;
+    --brand-experiment-90a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.9) !important;
+    --brand-experiment-95a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.95) !important;
+*/
 
 //  LIGHT THEME IS SCUFFED RIGHT NOW
 
