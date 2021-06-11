@@ -46,54 +46,53 @@
     --text-positive: rgb(191, 191, 201);
 }
 
-
-/*
-    --brand-experiment-100: hsl(228, calc(var(--background-tertiary, 1)*55.6%), 98.2%) !important;
-    --brand-experiment-130: hsl(228, calc(var(--background-tertiary, 1)*62.5%), 96.9%) !important;
-    --brand-experiment-160: hsl(228, calc(var(--background-tertiary, 1)*60%), 95.1%) !important;
-    --brand-experiment-200: hsl(229, calc(var(--background-tertiary, 1)*60%), 93.1%) !important;
-    --brand-experiment-230: hsl(227, calc(var(--background-tertiary, 1)*57.4%), 90.8%) !important;
-    --brand-experiment-260: hsl(226, calc(var(--background-tertiary, 1)*58.6%), 88.6%) !important;
-    --brand-experiment-300: hsl(227, calc(var(--background-tertiary, 1)*57.7%), 86.1%) !important;
-    --brand-experiment-330: hsl(227, calc(var(--background-tertiary, 1)*59.1%), 81.8%) !important;
-    --brand-experiment-360: hsl(227, calc(var(--background-tertiary, 1)*57.9%), 77.6%) !important;
-    --brand-experiment-400: hsl(226, calc(var(--background-tertiary, 1)*58%), 72%) !important;
-    --brand-experiment-430: hsl(227, calc(var(--background-tertiary, 1)*58.2%), 70%) !important;
-    --brand-experiment-460: hsl(227, calc(var(--background-tertiary, 1)*58.5%), 67.8%) !important;
-    --brand-experiment: hsl(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%) !important;
-    --brand-experiment-500: hsl(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%) !important;
-    --brand-experiment-530: hsl(227, calc(var(--background-tertiary, 1)*45.2%), 59.2%) !important;
-    --brand-experiment-560: hsl(227, calc(var(--background-tertiary, 1)*35.3%), 52.7%) !important;
-    --brand-experiment-600: hsl(227, calc(var(--background-tertiary, 1)*31%), 44.3%) !important;
-    --brand-experiment-630: hsl(226, calc(var(--background-tertiary, 1)*31.3%), 38.2%) !important;
-    --brand-experiment-660: hsl(226, calc(var(--background-tertiary, 1)*31%), 33.5%) !important;
-    --brand-experiment-700: hsl(227, calc(var(--background-tertiary, 1)*30.8%), 26.1%) !important;
-    --brand-experiment-730: hsl(228, calc(var(--background-tertiary, 1)*31.2%), 24.5%) !important;
-    --brand-experiment-760: hsl(227, calc(var(--background-tertiary, 1)*31.6%), 22.4%) !important;
-    --brand-experiment-800: hsl(226, calc(var(--background-tertiary, 1)*31.3%), 19.4%) !important;
-    --brand-experiment-830: hsl(225, calc(var(--background-tertiary, 1)*31.6%), 14.9%) !important;
-    --brand-experiment-860: hsl(225, calc(var(--background-tertiary, 1)*32%), 9.8%) !important;
-    --brand-experiment-900: hsl(228, calc(var(--background-tertiary, 1)*29.4%), 3.3%) !important;
-    --brand-experiment-05a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.05) !important;
-    --brand-experiment-10a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.1) !important;
-    --brand-experiment-15a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.15) !important;
-    --brand-experiment-20a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.2) !important;
-    --brand-experiment-25a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.25) !important;
-    --brand-experiment-30a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.3) !important;
-    --brand-experiment-35a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.35) !important;
-    --brand-experiment-40a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.4) !important;
-    --brand-experiment-45a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.45) !important;
-    --brand-experiment-50a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.5) !important;
-    --brand-experiment-55a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.55) !important;
-    --brand-experiment-60a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.6) !important;
-    --brand-experiment-65a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.65) !important;
-    --brand-experiment-70a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.7) !important;
-    --brand-experiment-75a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.75) !important;
-    --brand-experiment-80a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.8) !important;
-    --brand-experiment-85a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.85) !important;
-    --brand-experiment-90a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.9) !important;
-    --brand-experiment-95a: hsla(227, calc(var(--background-tertiary, 1)*58.4%), 65.1%, 0.95) !important;
-*/
+.theme-dark {
+    --brand-experiment: var(--accent-colour) !important;
+    --brand-experiment-100: var(--background-tertiary, 98.2%) !important;
+    --brand-experiment-130: brightness(var(--background-tertiary), 96.9%) !important;
+    --brand-experiment-160: brightness(var(--background-tertiary), 95.1%) !important;
+    --brand-experiment-200: brightness(var(--background-tertiary), 93.1%) !important;
+    --brand-experiment-230: brightness(var(--background-tertiary), 90.8%) !important;
+    --brand-experiment-260: brightness(var(--background-tertiary), 88.6%) !important;
+    --brand-experiment-300: brightness(var(--background-tertiary), 86.1%) !important;
+    --brand-experiment-330: brightness(var(--background-tertiary), 81.8%) !important;
+    --brand-experiment-360: brightness(var(--background-tertiary), 77.6%) !important;
+    --brand-experiment-400: brightness(var(--background-tertiary), 72%) !important;
+    --brand-experiment-430: brightness(var(--background-tertiary), 70%) !important;
+    --brand-experiment-460: brightness(var(--background-tertiary), 67.8%) !important;
+    --brand-experiment-500: brightness(var(--background-tertiary), 65.1%) !important;
+    --brand-experiment-530: calc(var(--background-tertiary, 1), 59.2%) !important;
+    --brand-experiment-560: calc(var(--background-tertiary, 1), 52.7%) !important;
+    --brand-experiment-600: calc(var(--background-tertiary, 1), 44.3%) !important;
+    --brand-experiment-630: calc(var(--background-tertiary, 1), 38.2%) !important;
+    --brand-experiment-660: calc(var(--background-tertiary, 1), 33.5%) !important;
+    --brand-experiment-700: calc(var(--background-tertiary, 1), 26.1%) !important;
+    --brand-experiment-730: calc(var(--background-tertiary, 1), 24.5%) !important;
+    --brand-experiment-760: calc(var(--background-tertiary, 1), 22.4%) !important;
+    --brand-experiment-800: calc(var(--background-tertiary, 1), 19.4%) !important;
+    --brand-experiment-830: calc(var(--background-tertiary, 1), 14.9%) !important;
+    --brand-experiment-860: calc(var(--background-tertiary, 1), 9.8%) !important;
+    --brand-experiment-900: calc(var(--background-tertiary, 1), 3.3%) !important;
+    --brand-experiment-05a: var(--background-tertiary, 0.05) !important;
+    --brand-experiment-10a: var(--background-tertiary, 0.1) !important;
+    --brand-experiment-15a: var(--background-tertiary, 0.15) !important;
+    --brand-experiment-20a: var(--background-tertiary, 0.2) !important;
+    --brand-experiment-25a: var(--background-tertiary, 0.25) !important;
+    --brand-experiment-30a: var(--background-tertiary, 0.3) !important;
+    --brand-experiment-35a: var(--background-tertiary, 0.35) !important;
+    --brand-experiment-40a: var(--background-tertiary, 0.4) !important;
+    --brand-experiment-45a: var(--background-tertiary, 0.45) !important;
+    --brand-experiment-50a: var(--background-tertiary, 0.5) !important;
+    --brand-experiment-55a: var(--background-tertiary, 0.55) !important;
+    --brand-experiment-60a: var(--background-tertiary, 0.6) !important;
+    --brand-experiment-65a: var(--background-tertiary, 0.65) !important;
+    --brand-experiment-70a: var(--background-tertiary, 0.7) !important;
+    --brand-experiment-75a: var(--background-tertiary, 0.75) !important;
+    --brand-experiment-80a: var(--background-tertiary, 0.8) !important;
+    --brand-experiment-85a: var(--background-tertiary, 0.85) !important;
+    --brand-experiment-90a: var(--background-tertiary, 0.9) !important;
+    --brand-experiment-95a: var(--background-tertiary, 0.95) !important;
+}
 
 //  LIGHT THEME IS SCUFFED RIGHT NOW
 

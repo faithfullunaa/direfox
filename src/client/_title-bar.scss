@@ -1,24 +1,16 @@
-@keyframes sweep {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
 @keyframes spin {
-    0% {}
     50% {
         transform: rotate(0deg);
     }
     80% {
+        transform: scale(2);
         transform: rotate(360deg);
     }
     95% {
         transform: rotate(350deg);
     }
     100% {
+        transform: scale(1);
         transform: rotate(360deg);
     }
 }
@@ -54,10 +46,6 @@
         width: 1px;
         top: 5px;
         color: var(--accent-colour);
-        animation-name: sweep;
-        animation-duration: 6s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
     }
     &>:first-child svg {
         width: 0;

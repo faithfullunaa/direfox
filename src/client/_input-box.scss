@@ -1,6 +1,6 @@
 @keyframes blink {
     0% {
-        color: var(--background-secondary);
+        color: transparent;
     }
     100% {
         color: var(--text-muted);
